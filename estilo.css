@@ -1,0 +1,61 @@
+/* DOCUMENTO CSS */
+
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family:sans-serif;
+	background-color: #ede9e4;
+}
+header{
+	background-color: darkred;
+	height: 100px;
+	padding-top: 25px;
+	color: white;
+	text-align: center;
+}
+main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding:20px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.box{width: 250px;
+	height: 400px;
+	background-color: darkred;
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	margin: 20px;
+}
+.box: hover{
+	box-shadow: 6px 6px 10px #a4a4a4 ;
+}
+.box h2{margin: 0 0 10px 0; 
+	padding: 0;
+}
+.box figure {width: 250px;
+	height: 200px;
+	margin: 0 0 90px 0;
+	padding: 0;
+
+}
+.box figure img {
+	width: 250px;
+	display: block;
+}
+.box p {
+height: 110px;
+}
+footer{
+	background-color: darkred;
+	height: 70px;
+	padding-top: 10px;
+	color: whitesmoke;
+	text-align: center;
+}
